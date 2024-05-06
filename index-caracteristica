@@ -1,0 +1,5 @@
+echo "# trabajo-entornos" >> README.md
+git init
+git add index.html
+git commit -m "Añadida nueva funcionalidad al index.html"
+git checkout -b nueva-caracteristica
