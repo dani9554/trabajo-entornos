@@ -1,5 +1,8 @@
 echo "# trabajo-entornos" >> README.md
 git init
+git commit -m "Si quisiesemos importar un código ya existente de otro archivo en un repositorio remoto, podríamos usar el comando git clone nombredelarchivo.git"
 git add index.html
 git commit -m "Añadida nueva funcionalidad al index.html"
 git checkout -b nueva-caracteristica
+git commit -m "con "git pull" se verán los cambios de la rama “master” del repositorio remoto y los fusionará automáticamente con tu rama actual"
+git pull origin master
